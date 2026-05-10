@@ -1,0 +1,19 @@
+[package]
+name = "language-parser"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A complete compiler pipeline: lexer → parser → type checker → TAC generator → interpreter"
+license = "MIT"
+readme = "README.md"
+keywords = ["compiler", "parser", "lexer", "interpreter"]
+
+[lib]
+name = "language_parser"
+path = "src/lib.rs"
+
+[[bin]]
+name = "lp"
+path = "src/main.rs"
+
+[dependencies]
