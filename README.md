@@ -29,6 +29,7 @@ while x < 100 { x = x + 1; }
 ```
 
 ## Structură
+```
 src/
 ├── phases/
 │   ├── lexer.rs       # Faza 1: Tokenizare
@@ -43,3 +44,4 @@ src/
 ├── error.rs           # Gestionare errori unificată
 ├── lib.rs             # Orchestrare librărie
 └── main.rs            # CLI interactiv
+```
