@@ -21,7 +21,8 @@ lp> let x = 2 + 3 * 4; return x;
 
 ## Limbaj suportat
 
-```rust
+```
+rust:
 let x = 42;
 if x > 10 { return x; } else { return 0; }
 while x < 100 { x = x + 1; }
